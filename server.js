@@ -8,7 +8,6 @@ app.get('/get-price', (req, res) => {
 
   res.json({
     totalPrice: totalPrice,
-    hasError: hasError
   });
 });
 
